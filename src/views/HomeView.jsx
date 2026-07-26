@@ -13,7 +13,6 @@ import {
   ThumbsUp 
 } from 'lucide-react';
 import { JOURNAL_ARTICLES } from '../data/journal';
-import { VISUALS } from '../data/visuals';
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider';
 import { BespokeBundleBuilder } from '../components/BespokeBundleBuilder';
 import { SourcingRegistry } from '../components/SourcingRegistry';
@@ -206,8 +205,8 @@ export const HomeView = () => {
                 }}
               >
                 <img
-                    src={VISUALS.serum}
-                    alt="Code-generated Velora barrier-serum visual"
+                  src="/images/hero_serum.png"
+                  alt="VELORA Botanical Barrier Repair Serum"
                   style={{ width: '100%', height: '540px', objectFit: 'cover' }}
                 />
 

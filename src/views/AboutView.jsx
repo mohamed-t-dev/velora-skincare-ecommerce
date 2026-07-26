@@ -1,7 +1,6 @@
 import React from 'react';
 import { useShop } from '../context/ShopContext';
 import { ShieldCheck, Leaf, Recycle } from 'lucide-react';
-import { VISUALS } from '../data/visuals';
 
 export const AboutView = () => {
   const { navigateToView } = useShop();
@@ -34,8 +33,8 @@ export const AboutView = () => {
         >
           <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-md)' }}>
             <img
-              src={VISUALS.nightOil}
-              alt="Abstract Velora night-oil composition"
+              src="/images/night_oil.png"
+              alt="Dr. Elena Vance in VELORA Laboratory"
               style={{ width: '100%', height: '520px', objectFit: 'cover' }}
             />
           </div>
