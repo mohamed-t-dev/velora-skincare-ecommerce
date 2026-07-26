@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
-import { Star, Heart, Filter, SlidersHorizontal, Eye } from 'lucide-react';
+import { Star, Heart, SlidersHorizontal, Eye } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 export const ShopView = () => {
@@ -112,7 +112,7 @@ export const ShopView = () => {
             gap: '30px'
           }}
         >
-          {filteredProducts.map((product, idx) => (
+          {filteredProducts.map((product) => (
             <div key={product.id} className="card-white card-glow reveal-scale" style={{ display: 'flex', flexDirection: 'column' }}>
               
               {/* Image Container with Hover Swap */}

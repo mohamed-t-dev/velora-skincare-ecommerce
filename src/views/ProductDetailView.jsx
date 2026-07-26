@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useShop } from '../context/ShopContext';
+import { VISUALS } from '../data/visuals';
 import { 
   Star, 
   Heart, 
@@ -9,26 +10,16 @@ import {
   Truck, 
   RotateCcw, 
   ChevronDown, 
-  Check, 
   Sparkles, 
   ZoomIn, 
   Copy, 
   CheckCircle2, 
   ThumbsUp, 
-  Eye, 
-  ArrowRight,
   Dna,
-  Droplets,
-  Clock,
-  Award,
-  CheckCircle,
   MessageSquare,
-  Filter,
   X,
-  User,
   Search,
   Camera,
-  Layers,
   Leaf
 } from 'lucide-react';
 
@@ -203,8 +194,8 @@ export const ProductDetailView = () => {
   const reviewGalleryPhotos = [
     { url: product.image, caption: 'Velvety Absorption & Fast Melting Action', tag: 'Formula Shot' },
     { url: product.hoverImage || product.image, caption: '14-Day Barrier Recovery Results', tag: 'Clinical Panel' },
-    { url: '/images/skincare_set.png', caption: 'Synergistic Daily Ritual Pairings', tag: 'Routine Shot' },
-    { url: '/images/hero_serum.png', caption: 'Dosage Precision Amber Glass Vial', tag: 'Devotee Photo' }
+    { url: VISUALS.collection, caption: 'Synergistic Daily Ritual Pairings', tag: 'Routine Visual' },
+    { url: VISUALS.serum, caption: 'Dosage Precision Bottle Study', tag: 'Product Visual' }
   ];
 
   return (

@@ -1,17 +1,38 @@
 # Velora Skin
 
-A responsive skincare e-commerce concept built with React and Vite. Velora demonstrates a complete product-discovery journey, from browsing and search to product details, wishlist management, cart interactions, and a simulated checkout flow.
+Velora is a responsive React e-commerce concept built around a complete skincare discovery journey: browsing, filtering, search, product details, wishlist management, cart interactions, guided recommendations, and a simulated checkout.
 
 > Portfolio concept: Velora is a fictional brand. Product claims, reviews, prices, and checkout behavior are demonstration content.
 
-## Highlights
+## Project overview
 
-- Product catalog, filtering, search, and detailed product views
+**Goal:** Combine a premium editorial identity with a shopping journey that remains clear and usable.
+
+**My role:** Product interface design, React architecture, shared storefront state, responsive styling, interactions, and documentation.
+
+**Outcome:** A multi-view storefront demonstration with connected discovery, consideration, and checkout states.
+
+## Screenshots
+
+| Desktop | Mobile |
+| --- | --- |
+| ![Velora desktop homepage](docs/screenshots/overview-desktop.png) | ![Velora mobile homepage](docs/screenshots/overview-mobile.png) |
+
+## Key functionality
+
+- Product catalog, filters, search, and detailed product views
 - Cart drawer, quantity controls, wishlist state, and quick-view interactions
-- Guided skincare routine quiz and bundle-building experience
-- Ingredient registry, journal content, reviews, and before/after comparison component
-- Responsive navigation and layouts across desktop, tablet, and mobile
-- Simulated multi-step checkout experience
+- Guided routine quiz and bundle-building experience
+- Ingredient registry, editorial content, reviews, and comparison component
+- Promotional-code, shipping-threshold, gifting, and checkout states
+- Responsive navigation across desktop, tablet, and mobile
+
+## Architecture and decisions
+
+- `ShopContext` centralizes navigation, cart, wishlist, promotions, gifting, search, and overlay state.
+- Views represent the main shopping stages while reusable components handle global interactions.
+- Product information lives in structured data modules instead of being repeated in components.
+- Checkout is intentionally simulated and never requests or transmits real payment details.
 
 ## Technology
 
@@ -19,8 +40,9 @@ A responsive skincare e-commerce concept built with React and Vite. Velora demon
 - Vite
 - JavaScript
 - CSS
-- React Context for shared storefront state
+- React Context
 - Lucide React icons
+- Oxlint and Node test runner
 
 ## Run locally
 
@@ -29,13 +51,22 @@ npm install
 npm run dev
 ```
 
-## Production build
+## Quality checks
 
 ```bash
+npm run lint
+npm test
 npm run build
 ```
 
-## Project status
+GitHub Actions runs these checks for every pushed branch and pull request.
 
-Front-end portfolio demonstration. It does not process real orders or payments.
+## Limitations
 
+- No production account, inventory, payment, tax, shipping, or order-management service
+- Cart and wishlist state reset when the page reloads
+- All product and editorial content is fictional
+
+## Assets and reuse
+
+See [ASSETS.md](ASSETS.md) for asset notes and [LICENSE](LICENSE) for reuse terms.

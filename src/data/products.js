@@ -1,3 +1,5 @@
+import { VISUALS } from './visuals.js';
+
 export const PRODUCTS = [
   {
     id: "barrier-repair-serum",
@@ -14,8 +16,8 @@ export const PRODUCTS = [
     tag: "Best Seller",
     badge: "Award Winner",
     purpose: "Intensive lipid restoration, redness reduction, and moisture lock",
-    image: "/images/hero_serum.png",
-    hoverImage: "/images/skincare_set.png",
+    image: VISUALS.serum,
+    hoverImage: VISUALS.collection,
     isHero: true,
     description: "An extraordinary lightweight, velvety serum formulated to repair and fortify compromised skin barriers. Packed with 10% Centella Asiatica, 5% Niacinamide, and pure lipid ceramides, this potent botanical elixir instantly calms redness, locks in 72 hours of deep hydration, and shields against environmental stressors.",
     benefits: [
@@ -53,8 +55,8 @@ export const PRODUCTS = [
     tag: "Award Winner",
     badge: "Clean Beauty",
     purpose: "Effortlessly melts away long-wear makeup, SPF, and urban pollutants",
-    image: "/images/cleansing_balm.png",
-    hoverImage: "/images/hero_serum.png",
+    image: VISUALS.balm,
+    hoverImage: VISUALS.serum,
     description: "A luxurious golden balm that transforms into a silky cleansing oil upon contact with skin, then rinses away as a milky emulsion. Infused with Sea Buckthorn and Elderberry oils to nourish skin while deeply purifying pores.",
     benefits: [
       "Dissolves waterproof makeup and water-resistant SPF without tugging",
@@ -83,8 +85,8 @@ export const PRODUCTS = [
     tag: "Clinical Grade",
     badge: "Barrier Cushion",
     purpose: "Restores elasticity and creates a protective cushion against moisture loss",
-    image: "/images/cream_jar.png",
-    hoverImage: "/images/cleansing_balm.png",
+    image: VISUALS.cream,
+    hoverImage: VISUALS.balm,
     description: "A rich yet weightless moisturizer containing 5 essential ceramides and copper peptides that fortify the lipid matrix, leaving skin velvety, plump, and thoroughly cushioned.",
     benefits: [
       "Protects against harsh climate conditions and indoor air conditioning",
@@ -112,8 +114,8 @@ export const PRODUCTS = [
     tag: "Best Seller",
     badge: "Overnight Renewal",
     purpose: "Refines fine lines, boosts collagen, and restores youthful radiance without irritation",
-    image: "/images/night_oil.png",
-    hoverImage: "/images/skincare_set.png",
+    image: VISUALS.nightOil,
+    hoverImage: VISUALS.collection,
     description: "A potent 100% botanical night treatment featuring 2% Bakuchiol—nature’s gentler alternative to retinol—blended with cold-pressed Rosehip and soothing Blue Tansy oils to smooth texture and boost firm elasticity overnight.",
     benefits: [
       "Targets fine lines, hyperpigmentation, and texture irregularities",
@@ -142,8 +144,8 @@ export const PRODUCTS = [
     tag: "Limited Edition",
     badge: "Save $35",
     purpose: "Complete transformation ritual for compromised, dry, or tired skin",
-    image: "/images/skincare_set.png",
-    hoverImage: "/images/hero_serum.png",
+    image: VISUALS.collection,
+    hoverImage: VISUALS.serum,
     description: "The ultimate VELORA Skin collection. Contains our Velvet Cleansing Balm (100ml), Hydra-Luminous Milk Toner (150ml), Botanical Barrier Repair Serum (50ml), and Ceramide Peptide Cream (50ml) in an exquisite keepsake box.",
     benefits: [
       "Complete AM & PM ritual engineered for optimal synergistic efficacy",
@@ -170,8 +172,8 @@ export const PRODUCTS = [
     tag: "Clean Science",
     badge: "Essence Prep",
     purpose: "Preps skin cells for serum absorption while imparting immediate dewy glow",
-    image: "/images/hero_serum.png",
-    hoverImage: "/images/cleansing_balm.png",
+    image: VISUALS.serum,
+    hoverImage: VISUALS.balm,
     description: "A soothing bi-phase milky essence featuring fermented rice water and polyglutamic acid. It rebalances post-cleanse pH and delivers weightless hydration deep into the stratum corneum.",
     benefits: [
       "Increases skin hydration absorption capacity by up to 300%",
@@ -199,8 +201,8 @@ export const PRODUCTS = [
     tag: "Daily Essential",
     badge: "Gentle Cleanse",
     purpose: "Gently purifies pores, excess sebum, and impurities while preserving barrier lipids",
-    image: "/images/cleansing_balm.png",
-    hoverImage: "/images/hero_serum.png",
+    image: VISUALS.balm,
+    hoverImage: VISUALS.serum,
     description: "A pillow-soft foam cleanser formulated with coconut-derived amino acids and green tea extract. Maintains optimal pH 5.5 balance to leave skin feeling clean, clear, and calm.",
     benefits: [
       "Formulated at optimal pH 5.5 to protect natural acid mantle",
@@ -228,8 +230,8 @@ export const PRODUCTS = [
     tag: "Dermatologist Tested",
     badge: "Brightening",
     purpose: "Visibly brightens dark circles, reduces morning puffiness, and smooths crow's feet",
-    image: "/images/cream_jar.png",
-    hoverImage: "/images/night_oil.png",
+    image: VISUALS.cream,
+    hoverImage: VISUALS.nightOil,
     description: "An illuminating eye treatment powered by green coffee bean caffeine and botanical niacinamide. Fast-absorbing cream formula depuffs tired eyes and creates a smooth canvas for makeup.",
     benefits: [
       "Constricts micro-vessels to diminish bluish dark circles",

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShieldCheck, MapPin, Search, CheckCircle, Award } from 'lucide-react';
+import { MapPin, CheckCircle, Award } from 'lucide-react';
 
 export const SourcingRegistry = () => {
   const [activeOrigin, setActiveOrigin] = useState('centella');

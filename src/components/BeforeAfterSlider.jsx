@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { SlidersHorizontal } from 'lucide-react';
+import { VISUALS } from '../data/visuals';
 
 export const BeforeAfterSlider = () => {
   const [sliderPos, setSliderPos] = useState(50);
@@ -55,8 +56,8 @@ export const BeforeAfterSlider = () => {
       >
         {/* Day 14: Restored Skin Image (Base Background) */}
         <img
-          src="/images/skin_after.png"
-          alt="Day 14 Restored Glass Skin Texture"
+          src={VISUALS.restored}
+          alt="Abstract restored-state product visual"
           style={{
             position: 'absolute',
             top: 0,
@@ -81,8 +82,8 @@ export const BeforeAfterSlider = () => {
           }}
         >
           <img
-            src="/images/skin_before.png"
-            alt="Day 0 Compromised Sensitive Flushed Skin Texture"
+            src={VISUALS.baseline}
+            alt="Abstract baseline-state product visual"
             style={{
               position: 'absolute',
               top: 0,

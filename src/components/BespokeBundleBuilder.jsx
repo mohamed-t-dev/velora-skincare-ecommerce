@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
-import { Sparkles, Check, Plus, ArrowRight, Gift, ShieldCheck } from 'lucide-react';
+import { Sparkles, Check, Gift } from 'lucide-react';
 
 export const BespokeBundleBuilder = () => {
   const { PRODUCTS, addToCart } = useShop();
