@@ -1,6 +1,6 @@
 # Velora Skin
 
-Velora is a responsive React e-commerce concept built around a complete skincare discovery journey: browsing, filtering, search, product details, wishlist management, cart interactions, guided recommendations, and a simulated checkout.
+Velora is a React e-commerce concept built around a complete skincare discovery journey: browsing, filtering, search, product details, wishlist management, cart interactions, guided recommendations, and a simulated checkout.
 
 > Portfolio concept: Velora is a fictional brand. Product claims, reviews, prices, and checkout behavior are demonstration content.
 
@@ -8,15 +8,15 @@ Velora is a responsive React e-commerce concept built around a complete skincare
 
 **Goal:** Combine a premium editorial identity with a shopping journey that remains clear and usable.
 
-**My role:** Product interface design, React architecture, shared storefront state, responsive styling, interactions, and documentation.
+**My role:** Product interface design, React architecture, shared storefront state, interactions, and documentation.
 
 **Outcome:** A multi-view storefront demonstration with connected discovery, consideration, and checkout states.
 
 ## Screenshots
 
-| Desktop | Mobile |
+| Homepage | Shop catalog |
 | --- | --- |
-| ![Velora desktop homepage](docs/screenshots/overview-desktop.png) | ![Velora mobile homepage](docs/screenshots/overview-mobile.png) |
+| ![Velora desktop homepage](docs/screenshots/overview-desktop.png) | ![Velora desktop shop catalog](docs/screenshots/shop-desktop.png) |
 
 ## Key functionality
 
@@ -25,7 +25,7 @@ Velora is a responsive React e-commerce concept built around a complete skincare
 - Guided routine quiz and bundle-building experience
 - Ingredient registry, editorial content, reviews, and comparison component
 - Promotional-code, shipping-threshold, gifting, and checkout states
-- Responsive navigation across desktop, tablet, and mobile
+- Desktop navigation with search, wishlist, cart, and guided recommendations
 
 ## Architecture and decisions
 
