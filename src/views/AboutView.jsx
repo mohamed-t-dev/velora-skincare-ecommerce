@@ -1,6 +1,6 @@
 import React from 'react';
 import { useShop } from '../context/ShopContext';
-import { ShieldCheck, Leaf, Recycle, Sparkles, Heart } from 'lucide-react';
+import { ShieldCheck, Leaf, Recycle } from 'lucide-react';
 
 export const AboutView = () => {
   const { navigateToView } = useShop();

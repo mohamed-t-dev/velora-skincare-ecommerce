@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useShop } from '../context/ShopContext';
 import { Search, Clock, User, X, ArrowRight } from 'lucide-react';
 import { JOURNAL_ARTICLES } from '../data/journal';
 

@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
-import { ShieldCheck, CheckCircle2, Lock, ArrowLeft, CreditCard, Truck, Sparkles } from 'lucide-react';
+import { CheckCircle2, Lock, ArrowLeft } from 'lucide-react';
 
 export const CheckoutView = () => {
   const {
     cart,
     subtotal,
     discountAmount,
-    discountRate,
-    promoCode,
     shippingCost,
     total,
     navigateToView

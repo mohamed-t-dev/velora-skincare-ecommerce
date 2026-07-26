@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
-import { MessageSquare, X, Send, Sparkles, User, ShieldCheck, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { MessageSquare, X, Send, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const SkinConciergeChat = () => {
   const { navigateToView } = useShop();

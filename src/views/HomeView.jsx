@@ -6,13 +6,9 @@ import {
   Star, 
   Heart, 
   Check, 
-  ShieldCheck, 
-  Leaf, 
-  Recycle, 
   Eye, 
   ChevronLeft, 
   ChevronRight, 
-  Quote, 
   CheckCircle2, 
   ThumbsUp 
 } from 'lucide-react';
@@ -20,16 +16,14 @@ import { JOURNAL_ARTICLES } from '../data/journal';
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider';
 import { BespokeBundleBuilder } from '../components/BespokeBundleBuilder';
 import { SourcingRegistry } from '../components/SourcingRegistry';
-import { QuickViewModal } from '../components/QuickViewModal';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 export const HomeView = () => {
-  const { PRODUCTS, navigateToView, addToCart, toggleWishlist, wishlist, setIsQuizOpen, openQuickView, addToast } = useShop();
+  const { PRODUCTS, navigateToView, addToCart, toggleWishlist, wishlist, openQuickView, addToast } = useShop();
   useScrollReveal();
 
   const bestSellers = PRODUCTS.slice(0, 4);
 
-  const [activeIngredientTab, setActiveIngredientTab] = useState('centella');
   const [selectedReviewCategory, setSelectedReviewCategory] = useState('All');
   const [activeReviewIdx, setActiveReviewIdx] = useState(0);
   const [helpfulVotes, setHelpfulVotes] = useState({ 0: 142, 1: 89, 2: 110, 3: 94, 4: 76 });

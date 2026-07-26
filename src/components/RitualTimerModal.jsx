@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useShop } from '../context/ShopContext';
-import { X, Play, Pause, RotateCcw, Sparkles, HeartHandshake } from 'lucide-react';
+import { X, Play, Pause, RotateCcw, Sparkles } from 'lucide-react';
 
 export const RitualTimerModal = () => {
   const { isMeditationOpen, setIsMeditationOpen } = useShop();
