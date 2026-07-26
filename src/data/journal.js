@@ -1,5 +1,3 @@
-import { VISUALS } from './visuals.js';
-
 export const JOURNAL_ARTICLES = [
   {
     id: "understanding-skin-barrier",
@@ -8,7 +6,7 @@ export const JOURNAL_ARTICLES = [
     readTime: "5 min read",
     date: "July 18, 2026",
     author: "Dr. Elena Vance, Lead Biochemist",
-    image: VISUALS.serum,
+    image: "/images/hero_serum.png",
     excerpt: "Your skin barrier is your body's first defense against environmental stressors. Learn how lipids, ceramides, and pH balance work together to keep skin resilient.",
     content: `
       The skin barrier—scientifically known as the stratum corneum—is frequently described as a brick wall. Skin cells (corneocytes) act as the bricks, while intercellular lipids (ceramides, cholesterol, and fatty acids) act as the mortar holding everything intact.
@@ -31,7 +29,7 @@ export const JOURNAL_ARTICLES = [
     readTime: "4 min read",
     date: "July 10, 2026",
     author: "Sophie Laurent, Senior Formulator",
-    image: VISUALS.nightOil,
+    image: "/images/night_oil.png",
     excerpt: "Discover why Bakuchiol—derived from the Psoralea Corylifolia plant—delivers all the collagen-boosting magic of vitamin A without the dryness or sun sensitivity.",
     content: `
       Retinol has long been crowned the gold standard for anti-aging. However, for those with reactive, sensitive, or eczema-prone skin, the retinoid journey often involves redness, peeling, and compromised barriers.
@@ -51,7 +49,7 @@ export const JOURNAL_ARTICLES = [
     readTime: "6 min read",
     date: "June 28, 2026",
     author: "Dr. Elena Vance, Lead Biochemist",
-    image: VISUALS.balm,
+    image: "/images/cleansing_balm.png",
     excerpt: "Like dissolves like. Uncover the dermatological science behind oil-based pre-cleansers and why melting away water-resistant SPF is essential for crystal clear skin.",
     content: `
       Modern sunscreens and long-wear makeup formulas are engineered to adhere to the skin. Standard water-based cleansers often leave behind an invisible layer of oil-soluble debris, leading to clogged pores and dull skin texture over time.

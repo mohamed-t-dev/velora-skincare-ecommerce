@@ -1,5 +1,5 @@
 # Asset notes
 
-Product presentation graphics are generated in code by `src/data/visuals.js`; the repository does not include standalone product or lifestyle photographs.
+The product and lifestyle imagery in `public/images` is included only as part of this fictional portfolio demonstration. Its inclusion does not grant redistribution or commercial-use rights.
 
 Interface icons are provided by [Lucide](https://lucide.dev/) through the `lucide-react` package and remain subject to the Lucide license.
