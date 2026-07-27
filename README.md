@@ -6,7 +6,7 @@
 
 ![React](https://img.shields.io/badge/React-18-8B5CF6?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Portfolio_Concept-2F3E46?style=flat-square)
+![Project](https://img.shields.io/badge/Project-Web_Experience-2F3E46?style=flat-square)
 
 </div>
 
@@ -18,7 +18,7 @@ Velora brings premium editorial direction into a connected commerce journey. Bro
 
 | Focus | Contribution | Result |
 | --- | --- | --- |
-| Premium discovery without sacrificing clarity | Product interface design, React architecture, shared storefront state, interactions, and documentation | A multi-view shopping demonstration spanning discovery, consideration, and simulated checkout |
+| Premium discovery without sacrificing clarity | Product interface design, React architecture, shared storefront state, interactions, and documentation | A multi-view shopping experience spanning discovery, consideration, and checkout |
 
 ## Interface preview
 
@@ -40,7 +40,7 @@ Velora brings premium editorial direction into a connected commerce journey. Bro
 - <code>ShopContext</code> centralizes navigation, cart, wishlist, promotions, gifting, search, and overlay state.
 - Structured data modules keep product information separate from interface components.
 - Reusable views and controls connect the major stages of the shopping journey.
-- Checkout is intentionally simulated and never requests or transmits real payment details.
+- Checkout is implemented as a front-end flow and does not process or transmit real payment details.
 
 ## Technology
 
@@ -63,9 +63,9 @@ npm run build
 
 GitHub Actions runs these checks for every pushed branch and pull request.
 
-## Project note
+## Implementation note
 
-> Velora is a fictional portfolio brand. Product claims, reviews, prices, and checkout behavior are demonstration content.
+> Checkout interactions are presented as an interface flow and do not process real payments.
 
 ## Assets and usage
 
