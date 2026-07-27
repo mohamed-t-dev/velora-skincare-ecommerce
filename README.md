@@ -1,66 +1,72 @@
+<div align="center">
+
 # Velora Skin
 
-Velora is a React e-commerce concept built around a complete skincare discovery journey: browsing, filtering, search, product details, wishlist management, cart interactions, guided recommendations, and a simulated checkout.
+**An editorial skincare storefront designed for confident product discovery.**
 
-> Portfolio concept: Velora is a fictional brand. Product claims, reviews, prices, and checkout behavior are demonstration content.
+![React](https://img.shields.io/badge/React-18-8B5CF6?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Portfolio_Concept-2F3E46?style=flat-square)
 
-## Project overview
+</div>
 
-**Goal:** Combine a premium editorial identity with a shopping journey that remains clear and usable.
+---
 
-**My role:** Product interface design, React architecture, shared storefront state, interactions, and documentation.
+## Product story
 
-**Outcome:** A multi-view storefront demonstration with connected discovery, consideration, and checkout states.
+Velora brings premium editorial direction into a connected commerce journey. Browsing, search, product education, wishlist decisions, cart interactions, guided recommendations, and checkout states work together as one focused storefront experience.
 
-## Screenshots
+| Focus | Contribution | Result |
+| --- | --- | --- |
+| Premium discovery without sacrificing clarity | Product interface design, React architecture, shared storefront state, interactions, and documentation | A multi-view shopping demonstration spanning discovery, consideration, and simulated checkout |
+
+## Interface preview
 
 | Homepage | Shop catalog |
 | --- | --- |
 | ![Velora desktop homepage](docs/screenshots/overview-desktop.png) | ![Velora desktop shop catalog](docs/screenshots/shop-desktop.png) |
 
-## Key functionality
+## Experience highlights
 
-- Product catalog, filters, search, and detailed product views
+- Searchable and filterable product catalog with detailed product views
 - Cart drawer, quantity controls, wishlist state, and quick-view interactions
 - Guided routine quiz and bundle-building experience
-- Ingredient registry, editorial content, reviews, and comparison component
-- Promotional-code, shipping-threshold, gifting, and checkout states
-- Desktop navigation with search, wishlist, cart, and guided recommendations
+- Ingredient registry, editorial content, reviews, and product comparison
+- Promotional-code, gifting, shipping-threshold, and checkout states
+- Desktop navigation that keeps search, wishlist, cart, and recommendations close at hand
 
-## Architecture and decisions
+## Design and engineering
 
-- `ShopContext` centralizes navigation, cart, wishlist, promotions, gifting, search, and overlay state.
-- Views represent the main shopping stages while reusable components handle global interactions.
-- Product information lives in structured data modules instead of being repeated in components.
+- <code>ShopContext</code> centralizes navigation, cart, wishlist, promotions, gifting, search, and overlay state.
+- Structured data modules keep product information separate from interface components.
+- Reusable views and controls connect the major stages of the shopping journey.
 - Checkout is intentionally simulated and never requests or transmits real payment details.
 
 ## Technology
 
-- React 18
-- Vite
-- JavaScript
-- CSS
-- React Context
-- Lucide React icons
-- Oxlint and Node test runner
+React 18 · Vite · JavaScript · CSS · React Context · Lucide React · Oxlint · Node test runner
 
 ## Run locally
 
-```bash
+~~~bash
 npm install
 npm run dev
-```
+~~~
 
 ## Quality checks
 
-```bash
+~~~bash
 npm run lint
 npm test
 npm run build
-```
+~~~
 
 GitHub Actions runs these checks for every pushed branch and pull request.
 
-## Assets and reuse
+## Project note
+
+> Velora is a fictional portfolio brand. Product claims, reviews, prices, and checkout behavior are demonstration content.
+
+## Assets and usage
 
 See [ASSETS.md](ASSETS.md) for asset notes and [LICENSE](LICENSE) for reuse terms.
